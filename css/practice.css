@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+    /*font-family: 'Concert One', cursive;*/
+}
+
+body{
+    background-color:#05033E;
+    color: white;
+}
+header{
+    display: flex;
+}
+.imgone{
+    flex-grow: 1;
+margin-left: 40px;
+}
+ul{
+    display: flex;
+margin-right: 60px;}
+
+li{
+    list-style-type: none;
+padding:7px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+a.active{
+    color:purple;
+    font-weight: 700;
+}
+.c{
+    display: flex;
+}
+.girli{
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.firstchild{
+    margin-left: 250px;
+margin-top: 100px;
+white-space:nowrap ;
+}
+.book{
+    background-color:purple;
+    width: 150px;
+    margin-top: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.o{
+    text-align: center;
+    margin-top: 90px;
+}
+.o p{line-height: 1px;}
+.n{
+    display: flex;
+justify-content: space-evenly;
+margin-top: 60px;
+}
+.n > div{
+    background-color:#151450;
+width: 240px;
+}
+.yellowii{
+    margin-left: -90px;
+    margin-top: -95px;
+}
+.hyello,.pyello{
+    margin-left: 16px;
+    margin-top: 5px;
+}
+
+.bulbbii{
+    margin-left: -30px;
+    margin-top: -27px;
+}
+.hbulbb,.pbulbb{
+    margin-left:15px;
+    margin-top:2px ;
+}
+
+.hhand,.phand{
+    margin-left: 15px;
+padding-top: 15px;
+}
+.handsii,.hhand,.phand{
+    margin-top: -19px;
+}
+.bulbii,.hbulb,.pbulb{
+    margin-left: 16px;
+margin-top: 10px;
+}
+.bulbii{
+    border-radius: 6px;
+}
+
+.t{text-align: center;
+margin-top: 140px;
+}
+.t p{
+    line-height: 1px;
+}
+
+.a{display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    }
+    .a > div{
+        text-align: center;
+        width: 170px;
+    }
+    .a p{
+        margin-top: 1px;
+    }
+    .seoii{
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    .mailii{
+        margin-top: 8px;
+    }
+    .growii{
+        margin-top: 8px;
+    }
+    .autoi p{
+        margin-top: -8px;
+    }
+    .seoi{
+        background-color: #151450;
+        position: relative;
+    }
+    .seoi p{
+        position: absolute;
+        z-index: 1;
+        left: 29px;
+    }
+    .seoi > div{
+        background-color: #151450;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top:100px ;
+        right: 70px;
+        z-index: 0;
+        border-radius: 20px 20px 20px 0px;
+        transform:rotate(-50deg) ;
+    }
+    .maili,.growi,.autoi,.ggi{
+        border: 2px solid #151450;
+    }
+
+    .i{
+        display: flex;
+    background-color:#151450;
+    margin-top: 50px;
+    width: 1170px;
+    margin-left: 79px;
+}
+.texti{
+    margin-left: 190px;
+    margin-top: 40px;
+}
+  .arti{
+      margin-left: 110px;
+    }
+    .texti button{
+        background-color: purple;
+    width: 150px;
+    margin-top: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    }
+    .numbers{
+        display: flex;
+        background-color: #151450;
+        width: 1170px;
+        height: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+        font-weight: bolder;
+        font-size: large;
+        line-height: 5px;
+        margin-top: 70px;
+        margin-left: 80px;
+    }
+    .purp{
+        color: purple;
+        font-size: 30px;
+    }
+    .e{
+        display: flex;
+        background-color:#05033E;
+        margin-top: 70px;
+    }
+    .purpl{
+        color: purple;
+    }
+    .textii{
+        margin-top: 50px;
+        margin-left: 160px;
+    }
+    .girlli{
+        margin-left: 200px;
+    }
+    .textii button{
+        background-color:purple;
+    width: 150px;
+    margin-top: 7px;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    }
+    .texter{
+        text-align: center;
+        margin-top: 110px;
+    }
+    .texter p{
+        line-height: 1px;
+    }
+    .pics{
+        display: flex;
+        margin-top: 90px;
+        justify-content: center;
+    }
+    .pics > div{
+    padding: 20px;
+}
+.pics img{
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.stars{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+}
+.tex{
+    text-align: center;
+}
+.r{
+    text-align: center;
+    margin-top: 140px;
+}
+.con{
+    display: flex;
+    justify-content: space-around;
+    width: 1170px;
+    margin-left: 70px;
+}
+.con > div{
+    background-color: #151450;
+width: 250px;
+height: 260px;
+}
+.con .mann{
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.con p{
+    margin-left: 95px;
+}
+
+.nii,.oii,.cii,.vi{
+    margin-left: 90px;
+}
+
+.ti{
+    text-align: center;
+    margin-top: 80px;
+    background-color: #151450;
+    width: 1130px;
+    height: 180px;
+    margin-left: 90px;
+    padding-top: 20px;
+}
+input[type="text"] {
+    border: none;
+    margin-right: 130px;
+    background-color: white;
+    
+}
+.tii{
+    background-color: white;
+    width: 420px;
+    margin-left: 356px;
+    height: 40px;
+    border-radius: 3px;
+}
+#submit{
+    background-color: purple;
+    width: 90px;
+    border-radius: 3px;
+    margin-top: 6px;
+    padding: 4px;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: purple;
+    width: 100%;
+    margin-top: 80px;
+}
+.call{
+    float: left;
+}
+.location{
+    margin-top:   50px;
+    float: left;
+    margin-top: 10px;
+}
+.loc{
+    margin-left: -10px;
+}
+ .vg{
+     line-height: 27px;
+ }   
+ .comm{
+     line-height: 27px;
+ }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
